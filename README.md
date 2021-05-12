@@ -22,8 +22,10 @@ Your users should be able to:
 - Navigate the slider using either their mouse/trackpad or keyboard
 
 
-## What I developed specially for this challenge
-- Javascript : Created an array with objects to save the different elements of the testimonials (name, job, image source)
+## What I learned/developed specially for this challenge
+- At first sight, the layout were not so difficult to make... until I had to do it. I needed 2 tries to make it. The first time I took "the mobile first" approach and I made it quite quickly, until I ran into the design for the desktop. After several hours I decided to stop, go to sleep and give it a new try. After a good night sleep, I took the project from zero again and it was quite clearer how to do it. For the second try, I decided to make the desktop layout first. As said, it seemed quite easy to make the text come over the picture but it was not (at least for a newbie), but it helped me to learn a lot. My way is probably not the best but it is quite similar to the given layout.
+- Javascript : First time I had to create a slider. This was quite easy as I had a clear view on how to do it. So I created an array with objects to save the different elements of the testimonials (name, job, image source) and go throught this array depending on where the user click (previous/next).
+
 
 
 ## Author
