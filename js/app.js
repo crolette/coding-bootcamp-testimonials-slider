@@ -40,26 +40,19 @@ window.addEventListener("DOMContentLoaded", function () {
   });
 
 
+  prev.addEventListener('click', function(e){
+
+    currentTestimonial <= 0 ? (currentTestimonial = maxTestimonials) : currentTestimonial--;
+    
+    changeTestimonial(currentTestimonial)
+    
+})
+
 next.addEventListener('click', function(e){
 
-    if(currentTestimonial === maxTestimonials){
-        currentTestimonial = 0
-    } else {
-        currentTestimonial++;
-    }
+    currentTestimonial === maxTestimonials ? (currentTestimonial = 0 ) : currentTestimonial++;
     
     changeTestimonial(currentTestimonial)
 })
 
 
-prev.addEventListener('click', function(e){
-
-    if(currentTestimonial === 0){
-        currentTestimonial = maxTestimonials
-    } else {
-        currentTestimonial--;
-    }
-    
-    changeTestimonial(currentTestimonial)
-    
-})
