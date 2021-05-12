@@ -40,10 +40,6 @@ window.addEventListener("DOMContentLoaded", function () {
   });
 
 
-
-
-
-
 next.addEventListener('click', function(e){
 
     if(currentTestimonial === maxTestimonials){
